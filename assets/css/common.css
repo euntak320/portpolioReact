@@ -1,0 +1,36 @@
+/* top_banner [S] */
+.top_banner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+.top_banner.inactive-banner {
+  display: none;
+}
+.top_banner .top_banner_inner {
+  position: relative;
+  margin: 0 auto;
+  max-width: 980px;
+}
+.top_banner .top_banner_inner a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.top_banner .top_banner_inner .btn_close {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background: url("../images/common/close_19_wht.png") no-repeat 50% 50%;
+  text-indent: -9999px;
+  transform: translateY(-50%);
+}
+
+/* top_banner [E] */
+
+/*# sourceMappingURL=common.css.map */
